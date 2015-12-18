@@ -12,7 +12,60 @@
 		9B5D2D711C2468AA00B0725A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D2D6F1C2468AA00B0725A /* Main.storyboard */; };
 		9B5D2D731C2468AA00B0725A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D2D721C2468AA00B0725A /* Assets.xcassets */; };
 		9B5D2D761C2468AA00B0725A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D2D741C2468AA00B0725A /* LaunchScreen.storyboard */; };
+		9B5D2D831C2469E800B0725A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D2D811C2469E800B0725A /* Interface.storyboard */; };
+		9B5D2D851C2469E800B0725A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D2D841C2469E800B0725A /* Assets.xcassets */; };
+		9B5D2D8C1C2469E800B0725A /* Emoji Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9B5D2D8B1C2469E800B0725A /* Emoji Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9B5D2D911C2469E800B0725A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D2D901C2469E800B0725A /* InterfaceController.swift */; };
+		9B5D2D931C2469E800B0725A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D2D921C2469E800B0725A /* ExtensionDelegate.swift */; };
+		9B5D2D951C2469E800B0725A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D2D941C2469E800B0725A /* Assets.xcassets */; };
+		9B5D2D991C2469E800B0725A /* Emoji.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9B5D2D7F1C2469E800B0725A /* Emoji.app */; };
+		9B5D2DA41C246A6300B0725A /* EmojiEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D2DA21C246A6300B0725A /* EmojiEnum.swift */; };
+		9B5D2DA51C246A6300B0725A /* EmojiEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D2DA21C246A6300B0725A /* EmojiEnum.swift */; };
+		9B5D2DA61C246A6300B0725A /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D2DA31C246A6300B0725A /* Emoji.swift */; };
+		9B5D2DA71C246A6300B0725A /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D2DA31C246A6300B0725A /* Emoji.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B5D2D8D1C2469E800B0725A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B5D2D601C2468AA00B0725A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5D2D8A1C2469E800B0725A;
+			remoteInfo = "Emoji Extension";
+		};
+		9B5D2D971C2469E800B0725A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B5D2D601C2468AA00B0725A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5D2D7E1C2469E800B0725A;
+			remoteInfo = Emoji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B5D2D9D1C2469E800B0725A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9B5D2D8C1C2469E800B0725A /* Emoji Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5D2DA11C2469E800B0725A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9B5D2D991C2469E800B0725A /* Emoji.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9B5D2D681C2468AA00B0725A /* SendingEmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendingEmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +75,28 @@
 		9B5D2D721C2468AA00B0725A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B5D2D751C2468AA00B0725A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B5D2D771C2468AA00B0725A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5D2D7F1C2469E800B0725A /* Emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5D2D821C2469E800B0725A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9B5D2D841C2469E800B0725A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B5D2D861C2469E800B0725A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5D2D8B1C2469E800B0725A /* Emoji Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Emoji Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5D2D901C2469E800B0725A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		9B5D2D921C2469E800B0725A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		9B5D2D941C2469E800B0725A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B5D2D961C2469E800B0725A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5D2DA21C246A6300B0725A /* EmojiEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiEnum.swift; sourceTree = "<group>"; };
+		9B5D2DA31C246A6300B0725A /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9B5D2D651C2468AA00B0725A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5D2D881C2469E800B0725A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				9B5D2D6A1C2468AA00B0725A /* SendingEmoji */,
+				9B5D2D801C2469E800B0725A /* Emoji */,
+				9B5D2D8F1C2469E800B0725A /* Emoji Extension */,
 				9B5D2D691C2468AA00B0725A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				9B5D2D681C2468AA00B0725A /* SendingEmoji.app */,
+				9B5D2D7F1C2469E800B0725A /* Emoji.app */,
+				9B5D2D8B1C2469E800B0725A /* Emoji Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,8 +135,31 @@
 				9B5D2D721C2468AA00B0725A /* Assets.xcassets */,
 				9B5D2D741C2468AA00B0725A /* LaunchScreen.storyboard */,
 				9B5D2D771C2468AA00B0725A /* Info.plist */,
+				9B5D2DA21C246A6300B0725A /* EmojiEnum.swift */,
+				9B5D2DA31C246A6300B0725A /* Emoji.swift */,
 			);
 			path = SendingEmoji;
+			sourceTree = "<group>";
+		};
+		9B5D2D801C2469E800B0725A /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				9B5D2D811C2469E800B0725A /* Interface.storyboard */,
+				9B5D2D841C2469E800B0725A /* Assets.xcassets */,
+				9B5D2D861C2469E800B0725A /* Info.plist */,
+			);
+			path = Emoji;
+			sourceTree = "<group>";
+		};
+		9B5D2D8F1C2469E800B0725A /* Emoji Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9B5D2D901C2469E800B0725A /* InterfaceController.swift */,
+				9B5D2D921C2469E800B0725A /* ExtensionDelegate.swift */,
+				9B5D2D941C2469E800B0725A /* Assets.xcassets */,
+				9B5D2D961C2469E800B0725A /* Info.plist */,
+			);
+			path = "Emoji Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +172,51 @@
 				9B5D2D641C2468AA00B0725A /* Sources */,
 				9B5D2D651C2468AA00B0725A /* Frameworks */,
 				9B5D2D661C2468AA00B0725A /* Resources */,
+				9B5D2DA11C2469E800B0725A /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9B5D2D981C2469E800B0725A /* PBXTargetDependency */,
 			);
 			name = SendingEmoji;
 			productName = SendingEmoji;
 			productReference = 9B5D2D681C2468AA00B0725A /* SendingEmoji.app */;
 			productType = "com.apple.product-type.application";
+		};
+		9B5D2D7E1C2469E800B0725A /* Emoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5D2D9E1C2469E800B0725A /* Build configuration list for PBXNativeTarget "Emoji" */;
+			buildPhases = (
+				9B5D2D7D1C2469E800B0725A /* Resources */,
+				9B5D2D9D1C2469E800B0725A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B5D2D8E1C2469E800B0725A /* PBXTargetDependency */,
+			);
+			name = Emoji;
+			productName = Emoji;
+			productReference = 9B5D2D7F1C2469E800B0725A /* Emoji.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9B5D2D8A1C2469E800B0725A /* Emoji Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5D2D9A1C2469E800B0725A /* Build configuration list for PBXNativeTarget "Emoji Extension" */;
+			buildPhases = (
+				9B5D2D871C2469E800B0725A /* Sources */,
+				9B5D2D881C2469E800B0725A /* Frameworks */,
+				9B5D2D891C2469E800B0725A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emoji Extension";
+			productName = "Emoji Extension";
+			productReference = 9B5D2D8B1C2469E800B0725A /* Emoji Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +229,12 @@
 				ORGANIZATIONNAME = MultiEducator;
 				TargetAttributes = {
 					9B5D2D671C2468AA00B0725A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9B5D2D7E1C2469E800B0725A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9B5D2D8A1C2469E800B0725A = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -113,6 +253,8 @@
 			projectRoot = "";
 			targets = (
 				9B5D2D671C2468AA00B0725A /* SendingEmoji */,
+				9B5D2D7E1C2469E800B0725A /* Emoji */,
+				9B5D2D8A1C2469E800B0725A /* Emoji Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +270,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B5D2D7D1C2469E800B0725A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5D2D851C2469E800B0725A /* Assets.xcassets in Resources */,
+				9B5D2D831C2469E800B0725A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5D2D891C2469E800B0725A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5D2D951C2469E800B0725A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,12 +294,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5D2DA41C246A6300B0725A /* EmojiEnum.swift in Sources */,
 				9B5D2D6E1C2468AA00B0725A /* ViewController.swift in Sources */,
+				9B5D2DA61C246A6300B0725A /* Emoji.swift in Sources */,
 				9B5D2D6C1C2468AA00B0725A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B5D2D871C2469E800B0725A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5D2DA51C246A6300B0725A /* EmojiEnum.swift in Sources */,
+				9B5D2D931C2469E800B0725A /* ExtensionDelegate.swift in Sources */,
+				9B5D2DA71C246A6300B0725A /* Emoji.swift in Sources */,
+				9B5D2D911C2469E800B0725A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B5D2D8E1C2469E800B0725A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B5D2D8A1C2469E800B0725A /* Emoji Extension */;
+			targetProxy = 9B5D2D8D1C2469E800B0725A /* PBXContainerItemProxy */;
+		};
+		9B5D2D981C2469E800B0725A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B5D2D7E1C2469E800B0725A /* Emoji */;
+			targetProxy = 9B5D2D971C2469E800B0725A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9B5D2D6F1C2468AA00B0725A /* Main.storyboard */ = {
@@ -157,6 +342,14 @@
 				9B5D2D751C2468AA00B0725A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9B5D2D811C2469E800B0725A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5D2D821C2469E800B0725A /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -265,6 +458,66 @@
 			};
 			name = Release;
 		};
+		9B5D2D9B1C2469E800B0725A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Emoji Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.multieducator.SendingEmoji.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		9B5D2D9C1C2469E800B0725A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Emoji Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.multieducator.SendingEmoji.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		9B5D2D9F1C2469E800B0725A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Emoji_Extension;
+				INFOPLIST_FILE = Emoji/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = net.multieducator.SendingEmoji.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		9B5D2DA01C2469E800B0725A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Emoji_Extension;
+				INFOPLIST_FILE = Emoji/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = net.multieducator.SendingEmoji.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -282,6 +535,22 @@
 			buildConfigurations = (
 				9B5D2D7B1C2468AA00B0725A /* Debug */,
 				9B5D2D7C1C2468AA00B0725A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B5D2D9A1C2469E800B0725A /* Build configuration list for PBXNativeTarget "Emoji Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5D2D9B1C2469E800B0725A /* Debug */,
+				9B5D2D9C1C2469E800B0725A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B5D2D9E1C2469E800B0725A /* Build configuration list for PBXNativeTarget "Emoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5D2D9F1C2469E800B0725A /* Debug */,
+				9B5D2DA01C2469E800B0725A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

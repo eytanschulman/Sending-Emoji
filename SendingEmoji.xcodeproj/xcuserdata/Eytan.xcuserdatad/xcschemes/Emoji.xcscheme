@@ -14,9 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9B5D2D7E1C2469E800B0725A"
+               BuildableName = "Emoji.app"
+               BlueprintName = "Emoji"
+               ReferencedContainer = "container:SendingEmoji.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "9B5D2D671C2468AA00B0725A"
                BuildableName = "SendingEmoji.app"
                BlueprintName = "SendingEmoji"
+               ReferencedContainer = "container:SendingEmoji.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9B5D2D8A1C2469E800B0725A"
+               BuildableName = "Emoji Extension.appex"
+               BlueprintName = "Emoji Extension"
                ReferencedContainer = "container:SendingEmoji.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +60,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B5D2D671C2468AA00B0725A"
-            BuildableName = "SendingEmoji.app"
-            BlueprintName = "SendingEmoji"
+            BlueprintIdentifier = "9B5D2D7E1C2469E800B0725A"
+            BuildableName = "Emoji.app"
+            BlueprintName = "Emoji"
             ReferencedContainer = "container:SendingEmoji.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -51,16 +79,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/SendingEmoji">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B5D2D671C2468AA00B0725A"
-            BuildableName = "SendingEmoji.app"
-            BlueprintName = "SendingEmoji"
+            BlueprintIdentifier = "9B5D2D7E1C2469E800B0725A"
+            BuildableName = "Emoji.app"
+            BlueprintName = "Emoji"
             ReferencedContainer = "container:SendingEmoji.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9B5D2D7E1C2469E800B0725A"
+            BuildableName = "Emoji.app"
+            BlueprintName = "Emoji"
+            ReferencedContainer = "container:SendingEmoji.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +109,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/SendingEmoji">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B5D2D671C2468AA00B0725A"
-            BuildableName = "SendingEmoji.app"
-            BlueprintName = "SendingEmoji"
+            BlueprintIdentifier = "9B5D2D7E1C2469E800B0725A"
+            BuildableName = "Emoji.app"
+            BlueprintName = "Emoji"
             ReferencedContainer = "container:SendingEmoji.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9B5D2D7E1C2469E800B0725A"
+            BuildableName = "Emoji.app"
+            BlueprintName = "Emoji"
+            ReferencedContainer = "container:SendingEmoji.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -7,12 +7,28 @@
 //
 
 import UIKit
+import WatchConnectivity
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, WCSessionDelegate {
+    
+    @IBOutlet weak var emojiLabel: UILabel!
+    
+    var session: WCSession!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        session = WCSession.defaultSession()
+        session.delegate = self
+        session.activateSession()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    func session(session: WCSession, didReceiveApplicationContext applicationContext: [String : AnyObject]) {
+        let emoji = applicationContext["emoji"] as? Emoji
+        
+        dispatch_async(dispatch_get_main_queue(), {
+            self.emojiLabel.text = "Last Emoji: \(emoji?.emoji)"
+        })
     }
 
     override func didReceiveMemoryWarning() {
