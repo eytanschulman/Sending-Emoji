@@ -29,7 +29,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
         // Configure interface objects here.
     }
     
-    func sendEmoji(emoji: Emoji) {
+    func sendEmoji(emoji: String) {
         let applicationDict = ["emoji":emoji]
         do {
             try session.updateApplicationContext(applicationDict)
@@ -39,27 +39,27 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     }
     
     @IBAction func whateverPressed() {
-        self.sendEmoji(Emoji(e: EmojiEnum.Whatever))
+        self.sendEmoji("Whatever")
     }
     
     @IBAction func welpPressed() {
-        self.sendEmoji(Emoji(e: EmojiEnum.Welp))
+        self.sendEmoji("Welp")
     }
     
     @IBAction func ghostPressed() {
-        self.sendEmoji(Emoji(e: EmojiEnum.Ghost))
+        self.sendEmoji("Ghost")
     }
     
     @IBAction func criesPressed() {
-        self.sendEmoji(Emoji(e: EmojiEnum.Crying))
+        self.sendEmoji("Crying")
     }
     
     @IBAction func contemplatingPressed() {
-        self.sendEmoji(Emoji(e: EmojiEnum.Contemplating))
+        self.sendEmoji("Contemplating")
     }
     
     @IBAction func soccerPressed() {
-        self.sendEmoji(Emoji(e: EmojiEnum.Soccer))
+        self.sendEmoji("Soccer")
     }
     
     override func willActivate() {

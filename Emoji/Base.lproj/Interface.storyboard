@@ -12,20 +12,44 @@
                     <items>
                         <group width="1" alignment="left" id="phD-1c-2ZH">
                             <items>
-                                <button width="0.5" alignment="left" title="☹️" id="u2z-Qx-AIN"/>
-                                <button width="0.5" alignment="left" title="😢" id="vIL-fq-zzn"/>
+                                <button width="0.5" alignment="left" title="☹️" id="u2z-Qx-AIN">
+                                    <connections>
+                                        <action selector="welpPressed" destination="AgC-eL-Hgc" id="PHQ-Vz-VDE"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="😢" id="vIL-fq-zzn">
+                                    <connections>
+                                        <action selector="criesPressed" destination="AgC-eL-Hgc" id="xJ4-gy-KIu"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <group width="1" alignment="left" id="tWF-qL-RV9">
                             <items>
-                                <button width="0.5" alignment="left" title="💁🏻" id="HRa-PP-bhb"/>
-                                <button width="0.5" alignment="left" title="👻" id="lAC-Pi-pAt"/>
+                                <button width="0.5" alignment="left" title="💁🏻" id="HRa-PP-bhb">
+                                    <connections>
+                                        <action selector="whateverPressed" destination="AgC-eL-Hgc" id="qnb-ZP-MBr"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="👻" id="lAC-Pi-pAt">
+                                    <connections>
+                                        <action selector="ghostPressed" destination="AgC-eL-Hgc" id="fLt-ow-KpS"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <group width="1" alignment="left" id="A30-hm-TdX">
                             <items>
-                                <button width="0.5" alignment="left" title="⚽️" id="Rz2-1Q-agc"/>
-                                <button width="0.5" alignment="left" title="🤔" id="rD2-O5-y7W"/>
+                                <button width="0.5" alignment="left" title="⚽️" id="Rz2-1Q-agc">
+                                    <connections>
+                                        <action selector="soccerPressed" destination="AgC-eL-Hgc" id="9Qa-Fb-LTz"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="🤔" id="rD2-O5-y7W">
+                                    <connections>
+                                        <action selector="contemplatingPressed" destination="AgC-eL-Hgc" id="1EU-Db-CIJ"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                     </items>

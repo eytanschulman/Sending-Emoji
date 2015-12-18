@@ -19,10 +19,12 @@
 		9B5D2D931C2469E800B0725A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D2D921C2469E800B0725A /* ExtensionDelegate.swift */; };
 		9B5D2D951C2469E800B0725A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D2D941C2469E800B0725A /* Assets.xcassets */; };
 		9B5D2D991C2469E800B0725A /* Emoji.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9B5D2D7F1C2469E800B0725A /* Emoji.app */; };
-		9B5D2DA41C246A6300B0725A /* EmojiEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D2DA21C246A6300B0725A /* EmojiEnum.swift */; };
-		9B5D2DA51C246A6300B0725A /* EmojiEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D2DA21C246A6300B0725A /* EmojiEnum.swift */; };
-		9B5D2DA61C246A6300B0725A /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D2DA31C246A6300B0725A /* Emoji.swift */; };
-		9B5D2DA71C246A6300B0725A /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D2DA31C246A6300B0725A /* Emoji.swift */; };
+		9B5D2DAF1C246F3400B0725A /* crying.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D2DA91C246F3400B0725A /* crying.wav */; };
+		9B5D2DB01C246F3400B0725A /* contemplating.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D2DAA1C246F3400B0725A /* contemplating.wav */; };
+		9B5D2DB11C246F3400B0725A /* ghost.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D2DAB1C246F3400B0725A /* ghost.wav */; };
+		9B5D2DB21C246F3400B0725A /* soccer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D2DAC1C246F3400B0725A /* soccer.wav */; };
+		9B5D2DB31C246F3400B0725A /* welp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D2DAD1C246F3400B0725A /* welp.wav */; };
+		9B5D2DB41C246F3400B0725A /* whatever.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D2DAE1C246F3400B0725A /* whatever.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,8 +86,12 @@
 		9B5D2D921C2469E800B0725A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		9B5D2D941C2469E800B0725A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B5D2D961C2469E800B0725A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B5D2DA21C246A6300B0725A /* EmojiEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiEnum.swift; sourceTree = "<group>"; };
-		9B5D2DA31C246A6300B0725A /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		9B5D2DA91C246F3400B0725A /* crying.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crying.wav; sourceTree = "<group>"; };
+		9B5D2DAA1C246F3400B0725A /* contemplating.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = contemplating.wav; sourceTree = "<group>"; };
+		9B5D2DAB1C246F3400B0725A /* ghost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ghost.wav; sourceTree = "<group>"; };
+		9B5D2DAC1C246F3400B0725A /* soccer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = soccer.wav; sourceTree = "<group>"; };
+		9B5D2DAD1C246F3400B0725A /* welp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welp.wav; sourceTree = "<group>"; };
+		9B5D2DAE1C246F3400B0725A /* whatever.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whatever.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +141,7 @@
 				9B5D2D721C2468AA00B0725A /* Assets.xcassets */,
 				9B5D2D741C2468AA00B0725A /* LaunchScreen.storyboard */,
 				9B5D2D771C2468AA00B0725A /* Info.plist */,
-				9B5D2DA21C246A6300B0725A /* EmojiEnum.swift */,
-				9B5D2DA31C246A6300B0725A /* Emoji.swift */,
+				9B5D2DA81C246F2A00B0725A /* AudioFiles */,
 			);
 			path = SendingEmoji;
 			sourceTree = "<group>";
@@ -160,6 +165,19 @@
 				9B5D2D961C2469E800B0725A /* Info.plist */,
 			);
 			path = "Emoji Extension";
+			sourceTree = "<group>";
+		};
+		9B5D2DA81C246F2A00B0725A /* AudioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9B5D2DA91C246F3400B0725A /* crying.wav */,
+				9B5D2DAA1C246F3400B0725A /* contemplating.wav */,
+				9B5D2DAB1C246F3400B0725A /* ghost.wav */,
+				9B5D2DAC1C246F3400B0725A /* soccer.wav */,
+				9B5D2DAD1C246F3400B0725A /* welp.wav */,
+				9B5D2DAE1C246F3400B0725A /* whatever.wav */,
+			);
+			name = AudioFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,12 +248,15 @@
 				TargetAttributes = {
 					9B5D2D671C2468AA00B0725A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7R5AB9VA95;
 					};
 					9B5D2D7E1C2469E800B0725A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7R5AB9VA95;
 					};
 					9B5D2D8A1C2469E800B0725A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7R5AB9VA95;
 					};
 				};
 			};
@@ -265,8 +286,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B5D2D761C2468AA00B0725A /* LaunchScreen.storyboard in Resources */,
+				9B5D2DB41C246F3400B0725A /* whatever.wav in Resources */,
 				9B5D2D731C2468AA00B0725A /* Assets.xcassets in Resources */,
+				9B5D2DB21C246F3400B0725A /* soccer.wav in Resources */,
+				9B5D2DAF1C246F3400B0725A /* crying.wav in Resources */,
+				9B5D2DB31C246F3400B0725A /* welp.wav in Resources */,
 				9B5D2D711C2468AA00B0725A /* Main.storyboard in Resources */,
+				9B5D2DB11C246F3400B0725A /* ghost.wav in Resources */,
+				9B5D2DB01C246F3400B0725A /* contemplating.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,9 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B5D2DA41C246A6300B0725A /* EmojiEnum.swift in Sources */,
 				9B5D2D6E1C2468AA00B0725A /* ViewController.swift in Sources */,
-				9B5D2DA61C246A6300B0725A /* Emoji.swift in Sources */,
 				9B5D2D6C1C2468AA00B0725A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,9 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B5D2DA51C246A6300B0725A /* EmojiEnum.swift in Sources */,
 				9B5D2D931C2469E800B0725A /* ExtensionDelegate.swift in Sources */,
-				9B5D2DA71C246A6300B0725A /* Emoji.swift in Sources */,
 				9B5D2D911C2469E800B0725A /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,10 +463,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SendingEmoji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.multieducator.SendingEmoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -451,20 +477,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SendingEmoji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.multieducator.SendingEmoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		9B5D2D9B1C2469E800B0725A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Emoji Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.multieducator.SendingEmoji.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -475,10 +507,13 @@
 		9B5D2D9C1C2469E800B0725A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Emoji Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.multieducator.SendingEmoji.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -490,11 +525,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Emoji_Extension;
 				INFOPLIST_FILE = Emoji/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = net.multieducator.SendingEmoji.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -506,11 +544,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Emoji_Extension;
 				INFOPLIST_FILE = Emoji/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = net.multieducator.SendingEmoji.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -537,6 +578,7 @@
 				9B5D2D7C1C2468AA00B0725A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B5D2D9A1C2469E800B0725A /* Build configuration list for PBXNativeTarget "Emoji Extension" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +587,7 @@
 				9B5D2D9C1C2469E800B0725A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B5D2D9E1C2469E800B0725A /* Build configuration list for PBXNativeTarget "Emoji" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +596,7 @@
 				9B5D2DA01C2469E800B0725A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

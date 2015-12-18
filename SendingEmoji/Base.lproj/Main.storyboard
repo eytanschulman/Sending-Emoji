@@ -16,11 +16,31 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmS-lG-nmz">
+                                <rect key="frame" x="168" y="226" width="265" height="147"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="265" id="nNW-fh-vQO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zmS-lG-nmz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="206" id="1R3-Lr-yhu"/>
+                            <constraint firstItem="zmS-lG-nmz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CvV-zs-0zg"/>
+                            <constraint firstItem="zmS-lG-nmz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y5I-5c-OIK"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emojiLabel" destination="zmS-lG-nmz" id="0lq-oG-wOZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="695" y="477"/>
         </scene>
     </scenes>
 </document>
